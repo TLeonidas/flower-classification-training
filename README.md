@@ -1,6 +1,6 @@
 # Flower Classification Training - Deep Learning 🌸
 
-This repository contains the full training process for a ResNet50-based model that classifies 102 species of flowers.  
+This repository contains the full training process for a ResNet50-based model and training a custom classifier to achieve high accuracy in flower species recognition.
 ✅ Achieved **97.3% validation accuracy** on the Oxford 102 Flower Dataset.
 
 ## Project Overview
@@ -20,6 +20,7 @@ The model was trained on the [Oxford 102 Flower Dataset](https://www.robots.ox.a
 
 ## Training Process
 - **Transfer Learning with ResNet50**
+- **Custom Classifier Training:** Fully connected layers trained on top of ResNet50
 - **Data Augmentation:** Resizing, cropping, normalization
 - **Optimization:** Adam optimizer with CrossEntropyLoss
 - **Evaluation:** Confusion matrix and accuracy metrics
@@ -34,7 +35,7 @@ The model was trained on the [Oxford 102 Flower Dataset](https://www.robots.ox.a
 **Confusion Matrix:**  
 *(See `images/confusion_matrix.png` for detailed misclassification analysis.)*
 
-## 🚀 How to Use
+## How to Use
 1. Clone this repository:
    ```bash
    git clone https://github.com/TLeonidas/flower-classification-training.git
