@@ -1,11 +1,12 @@
 # Flower Classification Training - Deep Learning 🌸
 
-This repository contains the full training process for a ResNet50-based model and training a custom classifier to achieve high accuracy in flower species recognition.
-✅ Achieved **97.3% validation accuracy** on the Oxford 102 Flower Dataset.
+This repository contains the full training process for a ResNet50-based model that classifies 102 species of flowers.
+
+The model achieved **97.3% validation accuracy** on the Oxford 102 Flower Dataset.
 
 ## Project Overview
 This project was originally developed as part of the AI Programming with Python Nanodegree by Udacity.  
-It demonstrates the power of transfer learning by fine-tuning a ResNet50 model to achieve high accuracy in flower species recognition.
+It demonstrates the power of transfer learning by fine-tuning a ResNet50 and training a custom classifier to achieve high accuracy in flower species recognition.
 
 ## 📂 Repository Structure
 | Folder/File               | Description |
